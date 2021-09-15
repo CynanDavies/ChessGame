@@ -1,0 +1,25 @@
+Square notation:
+
+5 bit:
+
+0 - 2 Piece_type (0 Empty, 1 Pawn, 2 Knight, 3 Bishop, 4 Rook, 5 Queen, 6 King, 7 Inaccessible)
+3 Has moved flag
+4 colour
+
+Efficiency of move calculation:
+The recursive move calculation takes far longer, than the knight and pawn move calculation
+Maybe I can do something about that?
+
+Note: Iterating through 10 x 12 board will take a lot longer. Maybe having two seperate boards
+would make things quicker? Or maybe I can do something else?
+
+Next:
+
+En passant
+Castling
+check + checkmate
+50 move rule
+move log
+promoting
+
+Graphical Board + moving pieces with mouse + game loop
